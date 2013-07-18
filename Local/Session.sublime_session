@@ -1,0 +1,543 @@
+{
+	"folder_history":
+	[
+		"/var/www/dbportal_prj",
+		"/var/www/dbportal_prj/tmp",
+		"/var/www/dbportal_prj/templates",
+		"/var/www/dbportal_prj/std",
+		"/var/www/dbportal_prj/scripts",
+		"/var/www/dbportal_prj/model",
+		"/var/www/dbportal_prj/manuais",
+		"/var/www/dbportal_prj/licenca",
+		"/var/www/dbportal_prj/libs",
+		"/var/www/dbportal_prj/interfaces",
+		"/var/www/dbportal_prj/jobs",
+		"/var/www/dbportal_prj/integracao_externa",
+		"/var/www/dbportal_prj/imagens",
+		"/var/www/dbportal_prj/funcoes",
+		"/var/www/dbportal_prj/fpdf151",
+		"/var/www/dbportal_prj/forms",
+		"/var/www/dbportal_prj/dbforms",
+		"/var/www/dbportal_prj/ext",
+		"/var/www/dbportal_prj/estilos",
+		"/var/www/dbportal_prj/documentos",
+		"/var/www/dbportal_prj/dbagata",
+		"/var/www/dbportal_prj/config",
+		"/var/www/dbportal_prj/classes",
+		"/var/www/dbportal_prj/cache",
+		"/var/www/dbportal_prj/bin"
+	],
+	"last_version": 3047,
+	"last_window_id": 6,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ta",
+						"table"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 139.0,
+				"history":
+				[
+					"sublime --data /home/renan/Documentos/Sublime",
+					"--data /home/renan/Documentos/Sublime",
+					"--data /home/renan/Documentos/Sublime/",
+					"--data /Home/renan/Documentos/Sublime/",
+					"sublime --data /Home/renan/Documentos/Sublime/",
+					"sublime --data ~/Documentos/Sublime/"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/renan/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/var/www/dbportal_prj/libs/db_stdlib.php",
+				"/var/www/dbportal_prj/Con1_conrelinfo001.php",
+				"/home/renan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/renan/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/renan/.config/sublime-text-3/Packages/User/dbportal_prj.sublime-project"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"ctrl+shift+q",
+					"ctrl+shift+a",
+					"ctrl",
+					"f5",
+					"ctrl+q",
+					"ctrl+shift+g",
+					"but",
+					"alt+d",
+					"alt_d",
+					"shift+g",
+					"ctrl+d",
+					"ctrl+g",
+					"ctrk+g",
+					"mouse",
+					"ctrl+k",
+					">\n",
+					"db_getsession"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+				],
+				"width": 593.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 327.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"str_re",
+						"str_replace"
+					],
+					[
+						"calculo",
+						"calculoRetencao"
+					],
+					[
+						"ta",
+						"table"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "<?php\n/*\n *     E-cidade Software Publico para Gestao Municipal                \n *  Copyright (C) 2009  DBselller Servicos de Informatica             \n *                            www.dbseller.com.br                     \n *                         e-cidade@dbseller.com.br                   \n *                                                                    \n *  Este programa e software livre; voce pode redistribui-lo e/ou     \n *  modifica-lo sob os termos da Licenca Publica Geral GNU, conforme  \n *  publicada pela Free Software Foundation; tanto a versao 2 da      \n *  Licenca como (a seu criterio) qualquer versao mais nova.          \n *                                                                    \n *  Este programa e distribuido na expectativa de ser util, mas SEM   \n *  QUALQUER GARANTIA; sem mesmo a garantia implicita de              \n *  COMERCIALIZACAO ou de ADEQUACAO A QUALQUER PROPOSITO EM           \n *  PARTICULAR. Consulte a Licenca Publica Geral GNU para obter mais  \n *  detalhes.                                                         \n *                                                                    \n *  Voce deve ter recebido uma copia da Licenca Publica Geral GNU     \n *  junto com este programa; se nao, escreva para a Free Software     \n *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA          \n *  02111-1307, USA.                                                  \n *  \n *  Copia da licenca no diretorio licenca/licenca_en.txt \n *                                licenca/licenca_pt.txt \n */\n\n\nrequire_once ('interfaces/calculoRetencao.interface.php');\n/**\n * realizada o calculo de retencoes do tipo pessoa fisica\n * @package empenho\n */\nclass calculoRetencaoInssFisica implements iCalculoRetencao {\n\n  /**\n   * tipo do calculo\n   * @var integer\n   */\n  private $iTipo = 3;\n  \n  /**\n   * Valor da base de calculo\n   *\n   * @var float\n   */\n  private $nValorBaseCalculo = 0;\n  \n  /** Valor da Dedução informado pelo usuário.\n   *\n   * @var float\n   */ \n  private $nValorDeducao = 0;\n  \n  /**\n   * cpf ou cnpj a calcular o imposto.\n   *\n   * @var integer\n   */\n  private $iCgcCpf = null;\n  \n  /**\n   * Tabela do IRRF a ser usada\n   *\n   * @var object\n   */\n  private $oTabelaInss = null;\n  \n  /**\n   * Valor da Aliquota\n   *\n   * @var float\n   */\n  private $nAliquota  = 0;\n  \n  /**\n   * Valor a ser adicionado da nota\n   *\n   * @var float\n   */\n  private $nValorNota = 0;\n  \n  /**\n   * Códigos Auxiliares doe Movimentos \n   *\n   * @var array\n   */\n  private $aCodigoMovimentos = array();\n  \n  /** metodo construtor da classe\n   * @param integer $iTipo tipo do calculo 1 - pessoa fisica\n   */\n  function __construct($iCgcCpf, $iTipo = 3) {\n\n    $this->iTipo   = $iTipo;\n    $this->iCgcCpf = (string)$iCgcCpf;\n    \n  }\n  \n  /**\n   * \n   * @see iCalculoRetencao::calculaBasedeCalculo()\n   */\n  function calculaBasedeCalculo() {\n    \n\n\n    /* \n     * calculo da base calculo;\n     * 1 - Buscamos todos as notas liquidadas do CGM(cpf) dentro do mes e\n     *     somamos todas elas, e usamos como base de calculo inicial.\n     * 2 - depois deduzimos as deducoes já cadastradas.\n     */\n    \n    $nValorBaseCalculo = 0;\n    if (empty($this->iCgcCpf)) {\n      throw new Exception(\"Erro [2] CPF/CNPJ não Informado!\\nOperação cancelada\");\n    }\n    \n    $oDaoNota   = db_utils::getDao(\"empnota\");\n    $iMesBase   = date(\"m\", db_getsession(\"DB_datausu\"));\n    $iAnoBase   = db_getsession(\"DB_anousu\");\n    $iInstit    = db_getsession(\"DB_instit\");\n    if ($this->dtBaseCalculo != \"\") {\n      \n      \n      $iMesBase  = date(\"m\", strtotime($this->dtBaseCalculo));\n      $iAnoBase  = date(\"Y\", strtotime($this->dtBaseCalculo));\n      \n    }\n    /*\n     * Buscamos nessa consulta, todos os valores pagos no mes ao credor.\n     */\n    $sSqlNotas  = \"select coalesce(sum((case when c71_coddoc = 5 then c70_valor when c71_coddoc = 6 then c70_valor *-1 end)),0) as total\";\n    $sSqlNotas .= \"  from conlancamord                                          \";\n    $sSqlNotas .= \"       inner join conlancam    on c70_codlan =  c80_codlan      \";\n    $sSqlNotas .= \"       inner join conlancamdoc on c70_codlan = c71_codlan    \";\n    $sSqlNotas .= \"       inner join pagordem on c80_codord = e50_codord        \";\n    $sSqlNotas .= \"       inner join empempenho   on e50_numemp = e60_numemp      \";\n    $sSqlNotas .= \"       inner join cgm              on e60_numcgm           = cgm.z01_numcgm    \";\n    $sSqlNotas .= \"       left  join pagordemconta    on e49_codord           = e50_codord  \";\n    $sSqlNotas .= \"       left  join cgm cgmordem     on e49_numcgm           = cgmordem.z01_numcgm  \";\n    $sSqlNotas .= \" where extract (year from c70_data)  = {$iAnoBase}        \";\n    $sSqlNotas .= \"   and extract (month from c70_data)  = {$iMesBase}        \"; \n    $sSqlNotas .= \"   and (case when e49_numcgm is null then cgm.z01_cgccpf = '{$this->iCgcCpf}'  \";\n    $sSqlNotas .= \"        else cgmordem.z01_cgccpf = '{$this->iCgcCpf}' end)                      \";\n    $rsNotas    = $oDaoNota->sql_record($sSqlNotas);\n    if ($oDaoNota->numrows > 0) {\n\n      $oNotas            = db_utils::fieldsMemory($rsNotas, 0);\n      $nValorBaseCalculo = $oNotas->total - $this->nValorDeducao;\n      \n    }\n    if ($nValorBaseCalculo < 0) {\n      $nValorBaseCalculo = 0;\n    }\n    \n    $this->nValorBaseCalculo = ($nValorBaseCalculo+$this->nValorNota)-$this->nValorDeducao;\n    return $this->nValorBaseCalculo;\n  \n  }\n  \n  /**\n   * \n   * @see iCalculoRetencao::calcularRetencao()\n   */\n  function calcularRetencao() {\n\n    $this->nValorBaseCalculo = $this->calculaBasedeCalculo();\n    $this->getTabelaInss();\n    $this->nAliquota = $this->oTabelaInss->r33_perc;\n    $nValorRetido = 0;\n    /**\n     * Calculamos o valor da retencao, multiplicando  a base de calculo pela aliquota;\n     */\n    if ($this->nValorBaseCalculo > $this->oTabelaInss->teto) {\n      $this->nValorBaseCalculo = $this->oTabelaInss->teto;\n    }\n   \n    $nValorRetido = $this->nValorBaseCalculo * ($this->oTabelaInss->r33_perc/100);\n    $n2 = $nValorRetido;\n\n    /**\n     * Buscamos o valor já retido no mes e deduzimos do valor retido.\n     */\n    $oDaoNota         = db_utils::getDao(\"empnota\");\n    $iMesBase         = date(\"m\", db_getsession(\"DB_datausu\"));\n    $iAnoBase         = db_getsession(\"DB_anousu\");\n    $iInstit          = db_getsession(\"DB_instit\");\n    $sSqlValorRetido  = \"select sum(e23_valorretencao) as valorRetido                               \";\n    $sSqlValorRetido .= \"  from retencaoreceitas                                                    \";\n    $sSqlValorRetido .= \"       inner join retencaopagordem on e23_retencaopagordem = e20_sequencial\";\n    $sSqlValorRetido .= \"       inner join retencaotiporec  on e23_retencaotiporec  = e21_sequencial\";\n    $sSqlValorRetido .= \"       inner join pagordemnota     on e20_pagordem         = e71_codord    \";\n    $sSqlValorRetido .= \"       inner join empnota          on e71_codnota          = e69_codnota   \";\n    $sSqlValorRetido .= \"       inner join empempenho       on e69_numemp           = e60_numemp    \";\n    $sSqlValorRetido .= \"       inner join cgm              on e60_numcgm           = z01_numcgm    \";\n    $sSqlValorRetido .= \" where e69_anousu                       = {$iAnoBase}                     \";\n    $sSqlValorRetido .= \"   and extract(month from e23_dtcalculo) = {$iMesBase}                     \";\n    $sSqlValorRetido .= \"   and z01_cgccpf                        = '{$this->iCgcCpf}'              \";\n    $sSqlValorRetido .= \"   and e23_recolhido is true                                               \";\n    $sSqlValorRetido .= \"   and e23_ativo     is true                                               \";\n    $sSqlValorRetido .= \"   and e71_anulado  is false                                               \";\n    $sSqlValorRetido .= \"   and e21_retencaotipocalc = {$this->iTipo}                               \";\n    $rsValorRetido    = $oDaoNota->sql_record($sSqlValorRetido);\n    \n    if ($oDaoNota->numrows > 0) {\n      \n      $nValorJaRetido = db_utils::fieldsMemory($rsValorRetido, 0)->valorretido;\n      $nValorRetido  -= $nValorJaRetido;\n      \n    }\n    /**\n     * caso o usuário marcou alguma outra retencao, e caso ela possuir retencao, \n     * calculamos o valor ja retido desses calculos\n     * Buscamos o valor já retido no mes e deduzimos do valor retido.\n     */\n    if (count($this->aCodigoMovimentos) > 0) {\n    \n      $sWhereIn         = implode(\",\",$this->aCodigoMovimentos);\n      $sSqlValorRetido  = \"select sum(e23_valorretencao) as valorRetido                               \";\n      $sSqlValorRetido .= \"  from retencaoreceitas                                                    \";\n      $sSqlValorRetido .= \"       inner join retencaopagordem  on e23_retencaopagordem = e20_sequencial\";\n      $sSqlValorRetido .= \"       inner join retencaotiporec   on e23_retencaotiporec  = e21_sequencial\";\n      $sSqlValorRetido .= \"       inner join pagordemnota      on e20_pagordem         = e71_codord    \";\n      $sSqlValorRetido .= \"       inner join empnota           on e71_codnota          = e69_codnota   \";\n      $sSqlValorRetido .= \"       inner join empempenho        on e69_numemp           = e60_numemp    \";\n      $sSqlValorRetido .= \"       inner join cgm               on e60_numcgm           = z01_numcgm    \";\n      $sSqlValorRetido .= \"       inner join retencaoempagemov on e23_sequencial       = e27_retencaoreceitas \";\n      $sSqlValorRetido .= \" where e69_anousu                        = {$iAnoBase}                     \";\n      $sSqlValorRetido .= \"   and extract(month from e23_dtcalculo) = {$iMesBase}                     \";\n      $sSqlValorRetido .= \"   and z01_cgccpf                        = '{$this->iCgcCpf}'              \";\n      $sSqlValorRetido .= \"   and e23_recolhido is false                                              \";\n      $sSqlValorRetido .= \"   and e23_ativo     is true                                               \";\n      $sSqlValorRetido .= \"   and e71_anulado  is false                                               \";\n      $sSqlValorRetido .= \"   and e27_principal is true                                               \";\n      $sSqlValorRetido .= \"   and e21_retencaotipocalc = {$this->iTipo}                               \";\n      $sSqlValorRetido .= \"   and e27_empagemov in({$sWhereIn})                                        \";\n      $rsValorRetido    = $oDaoNota->sql_record($sSqlValorRetido);\n      if ($oDaoNota->numrows > 0) {\n      \n        $nValorJaRetido = db_utils::fieldsMemory($rsValorRetido, 0)->valorretido;\n        $nValorRetido  -= $nValorJaRetido;\n      \n      }\n    }\n    if ($nValorRetido < 0) {\n      $nValorRetido = 0;\n    }\n    \n    return $nValorRetido;\n  }\n  \n  /**\n   * \n   * @see iCalculoRetencao::getAliquota()\n   */\n  function getAliquota() {\n    return $this->nAliquota;\n  }\n  \n  /**\n   * \n   * @see iCalculoRetencao::getValorBaseCalculo()\n   */\n  function getValorBaseCalculo() {\n    return $this->nValorBaseCalculo;\n  }\n  \n  /**\n   * \n   * @param float $nValorAliquota \n   * @see iCalculoRetencao::setAliquota()\n   */\n  function setAliquota($nValorAliquota) {\n    $this->nValorAliquota = $nValorAliquota; \n  }\n  \n  /**\n   * \n   * @param $nValorDeducao \n   * @see iCalculoRetencao::setDeducao()\n   */\n  function setDeducao($nValorDeducao) {\n    $this->nValorDeducao = $nValorDeducao;\n  }\n  \n  /** Retorna a tabela de Inss conforme base de calculo  \n   * @return boolean;\n   */\n  function getTabelaInss() {\n  	\n    /*\n     * Buscamos o codigo da tabela a ser Deduzida\n     * devemos somar +2 no codigo da tabela encontrada,\n     * sempre pegando o ultimo registro\n     * \n     */\n     $oDaoCfPess    = db_utils::getDao(\"cfpess\");\n     $sSqlCodTabela = $oDaoCfPess->sql_query(null,\n                                             null,\n                                             null,\n                                             \"r11_tbprev\",\n                                             \"r11_anousu desc,\n                                             r11_mesusu desc\n                                             limit 1\",\n                                             \"r11_instit = \".db_getsession(\"DB_instit\")\n                                             );\n    $rsCodTabela  = $oDaoCfPess->sql_record($sSqlCodTabela);\n    if ($oDaoCfPess->numrows == 0) {\n\n      throw new Exception(\"Não há nenhuma configuracao de tabela de Inss!\\nConfira.\");\n    }\n    \n    $iCodigoTabelaInss = (db_utils::fieldsMemory($rsCodTabela,0)->r11_tbprev+2);\n    /*\n     * Retorna a tabela do imposto de renda que devemos usar.\n     */\n    $nBaseCalculo     = $this->nValorBaseCalculo;\n    if ($nBaseCalculo > 3038.99) {\n      $nBaseCalculo = 3038.99;\n    }\n    $oDaoInssIrf     = db_utils::getDao(\"inssirf\");\n    $sSqlTabelaINSS  = \"select r33_inic,                                               \";\n    $sSqlTabelaINSS .= \"       r33_fim,                                                \";\n    $sSqlTabelaINSS .= \"       r33_deduzi,                                             \";\n    $sSqlTabelaINSS .= \"       r33_perc,                                               \";\n    $sSqlTabelaINSS .= \"       (select max(r33_fim)                                    \";\n    $sSqlTabelaINSS .= \"          from inssirf  a                                      \";  \n    $sSqlTabelaINSS .= \"         where a.r33_anousu = inssirf.r33_anousu               \";  \n    $sSqlTabelaINSS .= \"           and a.r33_mesusu = inssirf.r33_mesusu               \";  \n    $sSqlTabelaINSS .= \"           and a.r33_instit = inssirf.r33_instit               \";\n    $sSqlTabelaINSS .= \"           and a.r33_codtab = {$iCodigoTabelaInss}) as teto    \";  \n    $sSqlTabelaINSS .= \"  from inssirf                                                 \";\n    $sSqlTabelaINSS .= \" where {$nBaseCalculo} between r33_inic and r33_fim \";\n    $sSqlTabelaINSS .= \"   and r33_codtab = {$iCodigoTabelaInss}                       \";\n    $sSqlTabelaINSS .= \"   and r33_instit = \".db_getsession(\"DB_instit\");\n    $sSqlTabelaINSS .= \" order by r33_anousu desc,                                     \";\n    $sSqlTabelaINSS .= \"          r33_mesusu desc  limit 1                             \";\n    $rsTabelaInss    = $oDaoInssIrf->sql_record($sSqlTabelaINSS);\n    if ($oDaoInssIrf->numrows == 1) {\n      \n      $this->oTabelaInss = db_utils::fieldsMemory($rsTabelaInss, 0);\n      \n    } else {\n      \n      $this->oTabelaInss = new stdClass();\n      $this->oTabelaInss->r33_perc = 0;\n      $this->oTabelaInss->teto     = 0;\n    }\n    return true;\n  }\n  \n  /**\n   * Seta o valor da base de calculo\n   *\n   * @param float8 $nValorBaseCalculo valor da base de calculo\n   */\n  function setBaseCalculo($nValorBaseCalculo) {\n    $this->nValorBaseCalculo = $nValorBaseCalculo;\n  }\n  \n  /**\n   * Define o valor da nota\n   *\n   * @param float $nValorNota valor da nota a ser contabilizado na retencao.\n   */\n  function setValorNota($nValorNota) {\n    \n    $this->nValorNota = $nValorNota;\n  }\n  \n  /**\n   * Define a data base para calculo das retencoes;\n   *\n   * @param string $dtDataBase data base para caculo formato dd/mm/YYY\n   */\n  function setDataBase($dtDataBase) {\n    \n    $dtDataBase = implode(\"-\", array_reverse(explode(\"/\", $dtDataBase)));\n    $this->dtBaseCalculo = $dtDataBase;\n    \n  }\n /**\n   * Define  o Codigo dos Movimentos\n   *\n   * @param unknown_type $aCodigosMovimentos\n   */\n  function setCodigoMovimentos($aCodigosMovimentos) {\n     $this->aCodigoMovimentos = $aCodigosMovimentos;  \n  }\n}\n\n?>",
+					"file": "model/calculoRetencaoInssFisica.model.php",
+					"file_size": 15510,
+					"file_write_time": 129979159880000000,
+					"settings":
+					{
+						"buffer_size": 15514,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/renan/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 387,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "interfaces/calculoRetencao.interface.php",
+					"settings":
+					{
+						"buffer_size": 2892,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 139.0,
+				"history":
+				[
+					"sublime --data /home/renan/Documentos/Sublime",
+					"--data /home/renan/Documentos/Sublime",
+					"--data /home/renan/Documentos/Sublime/",
+					"--data /Home/renan/Documentos/Sublime/",
+					"sublime --data /Home/renan/Documentos/Sublime/",
+					"sublime --data ~/Documentos/Sublime/"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/var/www/dbportal_prj/interfaces/calculoRetencao.interface.php",
+				"/var/www/dbportal_prj/Arr1_cadtipoconvenio003.php",
+				"/home/renan/.config/sublime-text-3/Packages/PHP Companion/PHP Companion.sublime-settings",
+				"/home/renan/.config/sublime-text-3/Packages/PHP Companion/Default.sublime-keymap",
+				"/home/renan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/var/www/dbportal_prj/model/Cgm.model.php",
+				"/var/www/dbportal_prj/Cem1_legista003.php",
+				"/home/renan/.config/sublime-text-3/Packages/BracketHighlighter/bh_core.sublime-settings",
+				"/home/renan/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/var/www/dbportal_prj/model/pontoFolha.model.php",
+				"/home/renan/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.py",
+				"/home/renan/.config/sublime-text-3/Packages/User/bh_core.sublime-settings",
+				"/home/renan/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/var/www/dbportal_prj/Arr1_cadtipoconvenio002.php",
+				"/home/renan/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/var/www/dbportal_prj/Cai1_recreparcori001.php",
+				"/var/www/dbportal_prj/libs/db_stdlib.php",
+				"/var/www/dbportal_prj/Con1_conrelinfo001.php",
+				"/home/renan/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/renan/.config/sublime-text-3/Packages/User/dbportal_prj.sublime-project"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"FOLD",
+					"ctrl+g+t",
+					"ctrl+q",
+					"ctrl+shift+q",
+					"ctrl+shift+a",
+					"ctrl",
+					"f5",
+					"ctrl+q",
+					"ctrl+shift+g",
+					"but",
+					"alt+d",
+					"alt_d",
+					"shift+g",
+					"ctrl+d",
+					"ctrl+g",
+					"ctrk+g",
+					"mouse",
+					"ctrl+k",
+					">\n",
+					"db_getsession"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "model/calculoRetencaoInssFisica.model.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 15514,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3573,
+										3573
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1711.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/renan/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 387,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										330,
+										330
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "interfaces/calculoRetencao.interface.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2892,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,0,0,3286,1080",
+			"project": "dbportal_prj.sublime-project",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"icalculo",
+						"interfaces/calculoRetencao.interface.php"
+					],
+					[
+						"icalculoretencao",
+						"interfaces/calculoRetencao.interface.php"
+					],
+					[
+						"fisica",
+						"model/calculoRetencaoInssFisica.model.php"
+					],
+					[
+						".model",
+						"model/Cgm.model.php"
+					],
+					[
+						"folha.model",
+						"model/pontoFolha.model.php"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+				],
+				"width": 593.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 327.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 5,
+			"workspace_name": "/var/www/dbportal_prj/dbportal_prj.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/var/www/dbportal_prj/dbportal_prj.sublime-workspace",
+			"/home/renan/.config/sublime-text-3/Packages/User/dbportal_prj.sublime-workspace",
+			"/home/renan/.config/sublime-text-3/Packages/User/Preferences.sublime-workspace",
+			"/var/www/dbportal_prj/bin/driver_impressora_com_ioperm/src/impd/index.sublime-workspace",
+			"/var/www/dbportal_prj/untitled.sublime-workspace"
+		]
+	}
+}

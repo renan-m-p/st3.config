@@ -1,0 +1,20 @@
+{
+	"caret_style": "wide",
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"default_encoding": "Western (ISO 8859-1)",
+	"default_line_ending": "unix",
+	"fade_fold_buttons": true,
+	"fallback_encoding": "Western (ISO 8859-1)",
+	"highlight_line": true,
+	"ignored_packages":
+	[
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		120
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}

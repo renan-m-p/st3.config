@@ -1,0 +1,7 @@
+[
+  { "keys": ["ctrl+shift+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+  { "keys": ["ctrl+g", "ctrl+t"], "command": "goto_definition" },
+  { "keys": ["f1"], "command": "goto_documentation"}
+
+]
